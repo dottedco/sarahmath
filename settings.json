@@ -1,0 +1,11 @@
+{
+  "name": "calc",
+  "desc": "A calculator command for the famous sarah discord bot",
+  "admin": false,
+  "state": 1,
+  "log": false,
+  "logicon": "",
+  "logmsg": "",
+  "logcolor": "",
+  "ondev": false
+}
