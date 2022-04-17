@@ -9,7 +9,7 @@ let calccmd = async (message, args, client, _, __) => {
     let res = algebrite.eval(data);
     let resp = new MessageEmbed()
     .setTitle("***sarah math***")
-    .setDescription(`The result of \`${data}\`\nis:**${res}**`)
+    .setDescription(`The result of \`${data}\`\nis:\`${res}\``)
     .setColor("DARKGREEN")
     .setThumbnail(message.guild.iconURL())
     .setTimestamp();
