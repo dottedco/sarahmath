@@ -18,3 +18,5 @@ let calccmd = async (message, args, client, _, __) => {
     message.reply("`I'm sorry, I couldn't eval your formula`");
   }
 }
+
+module.exports.calccmd = calccmd
